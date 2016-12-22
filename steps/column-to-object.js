@@ -56,6 +56,7 @@ function getType(col) {
         case 'time':
         case 'date':
         case 'datetime':
+        case 'timestamp with time zone':
 
         // Buffers represented as strings
         case 'bit':
@@ -84,6 +85,7 @@ function getType(col) {
         case 'text':
         case 'uuid':
         case 'varchar':
+        case 'character varying':
         case 'nvarchar':
         case 'tinytext':
         case 'longtext':
